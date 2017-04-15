@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93C0F3C61EA2B10B00A8D512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C0F3C51EA2B10B00A8D512 /* AppDelegate.swift */; };
+		93C0F3C81EA2B10B00A8D512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C0F3C71EA2B10B00A8D512 /* ViewController.swift */; };
+		93C0F3CB1EA2B10B00A8D512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C0F3C91EA2B10B00A8D512 /* Main.storyboard */; };
+		93C0F3CD1EA2B10B00A8D512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C0F3CC1EA2B10B00A8D512 /* Assets.xcassets */; };
+		93C0F3D01EA2B10B00A8D512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C0F3CE1EA2B10B00A8D512 /* LaunchScreen.storyboard */; };
+		93C0F3DB1EA2B10B00A8D512 /* TinoHacksSmilingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C0F3DA1EA2B10B00A8D512 /* TinoHacksSmilingTests.swift */; };
+		93C0F3E61EA2B10B00A8D512 /* TinoHacksSmilingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C0F3E51EA2B10B00A8D512 /* TinoHacksSmilingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93C0F3D71EA2B10B00A8D512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C0F3BA1EA2B10B00A8D512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C0F3C11EA2B10B00A8D512;
+			remoteInfo = TinoHacksSmiling;
+		};
+		93C0F3E21EA2B10B00A8D512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C0F3BA1EA2B10B00A8D512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C0F3C11EA2B10B00A8D512;
+			remoteInfo = TinoHacksSmiling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93C0F3C21EA2B10B00A8D512 /* TinoHacksSmiling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinoHacksSmiling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C0F3C51EA2B10B00A8D512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93C0F3C71EA2B10B00A8D512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93C0F3CA1EA2B10B00A8D512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93C0F3CC1EA2B10B00A8D512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C0F3CF1EA2B10B00A8D512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93C0F3D11EA2B10B00A8D512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C0F3D61EA2B10B00A8D512 /* TinoHacksSmilingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinoHacksSmilingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C0F3DA1EA2B10B00A8D512 /* TinoHacksSmilingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinoHacksSmilingTests.swift; sourceTree = "<group>"; };
+		93C0F3DC1EA2B10B00A8D512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C0F3E11EA2B10B00A8D512 /* TinoHacksSmilingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinoHacksSmilingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C0F3E51EA2B10B00A8D512 /* TinoHacksSmilingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinoHacksSmilingUITests.swift; sourceTree = "<group>"; };
+		93C0F3E71EA2B10B00A8D512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C0F3BF1EA2B10B00A8D512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C0F3D31EA2B10B00A8D512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C0F3DE1EA2B10B00A8D512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93C0F3B91EA2B10B00A8D512 = {
+			isa = PBXGroup;
+			children = (
+				93C0F3C41EA2B10B00A8D512 /* TinoHacksSmiling */,
+				93C0F3D91EA2B10B00A8D512 /* TinoHacksSmilingTests */,
+				93C0F3E41EA2B10B00A8D512 /* TinoHacksSmilingUITests */,
+				93C0F3C31EA2B10B00A8D512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C0F3C31EA2B10B00A8D512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C0F3C21EA2B10B00A8D512 /* TinoHacksSmiling.app */,
+				93C0F3D61EA2B10B00A8D512 /* TinoHacksSmilingTests.xctest */,
+				93C0F3E11EA2B10B00A8D512 /* TinoHacksSmilingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C0F3C41EA2B10B00A8D512 /* TinoHacksSmiling */ = {
+			isa = PBXGroup;
+			children = (
+				93C0F3C51EA2B10B00A8D512 /* AppDelegate.swift */,
+				93C0F3C71EA2B10B00A8D512 /* ViewController.swift */,
+				93C0F3C91EA2B10B00A8D512 /* Main.storyboard */,
+				93C0F3CC1EA2B10B00A8D512 /* Assets.xcassets */,
+				93C0F3CE1EA2B10B00A8D512 /* LaunchScreen.storyboard */,
+				93C0F3D11EA2B10B00A8D512 /* Info.plist */,
+			);
+			path = TinoHacksSmiling;
+			sourceTree = "<group>";
+		};
+		93C0F3D91EA2B10B00A8D512 /* TinoHacksSmilingTests */ = {
+			isa = PBXGroup;
+			children = (
+				93C0F3DA1EA2B10B00A8D512 /* TinoHacksSmilingTests.swift */,
+				93C0F3DC1EA2B10B00A8D512 /* Info.plist */,
+			);
+			path = TinoHacksSmilingTests;
+			sourceTree = "<group>";
+		};
+		93C0F3E41EA2B10B00A8D512 /* TinoHacksSmilingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93C0F3E51EA2B10B00A8D512 /* TinoHacksSmilingUITests.swift */,
+				93C0F3E71EA2B10B00A8D512 /* Info.plist */,
+			);
+			path = TinoHacksSmilingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C0F3C11EA2B10B00A8D512 /* TinoHacksSmiling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C0F3EA1EA2B10B00A8D512 /* Build configuration list for PBXNativeTarget "TinoHacksSmiling" */;
+			buildPhases = (
+				93C0F3BE1EA2B10B00A8D512 /* Sources */,
+				93C0F3BF1EA2B10B00A8D512 /* Frameworks */,
+				93C0F3C01EA2B10B00A8D512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinoHacksSmiling;
+			productName = TinoHacksSmiling;
+			productReference = 93C0F3C21EA2B10B00A8D512 /* TinoHacksSmiling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93C0F3D51EA2B10B00A8D512 /* TinoHacksSmilingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C0F3ED1EA2B10B00A8D512 /* Build configuration list for PBXNativeTarget "TinoHacksSmilingTests" */;
+			buildPhases = (
+				93C0F3D21EA2B10B00A8D512 /* Sources */,
+				93C0F3D31EA2B10B00A8D512 /* Frameworks */,
+				93C0F3D41EA2B10B00A8D512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C0F3D81EA2B10B00A8D512 /* PBXTargetDependency */,
+			);
+			name = TinoHacksSmilingTests;
+			productName = TinoHacksSmilingTests;
+			productReference = 93C0F3D61EA2B10B00A8D512 /* TinoHacksSmilingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93C0F3E01EA2B10B00A8D512 /* TinoHacksSmilingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C0F3F01EA2B10B00A8D512 /* Build configuration list for PBXNativeTarget "TinoHacksSmilingUITests" */;
+			buildPhases = (
+				93C0F3DD1EA2B10B00A8D512 /* Sources */,
+				93C0F3DE1EA2B10B00A8D512 /* Frameworks */,
+				93C0F3DF1EA2B10B00A8D512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C0F3E31EA2B10B00A8D512 /* PBXTargetDependency */,
+			);
+			name = TinoHacksSmilingUITests;
+			productName = TinoHacksSmilingUITests;
+			productReference = 93C0F3E11EA2B10B00A8D512 /* TinoHacksSmilingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C0F3BA1EA2B10B00A8D512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TinoHacks;
+				TargetAttributes = {
+					93C0F3C11EA2B10B00A8D512 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					93C0F3D51EA2B10B00A8D512 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93C0F3C11EA2B10B00A8D512;
+					};
+					93C0F3E01EA2B10B00A8D512 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93C0F3C11EA2B10B00A8D512;
+					};
+				};
+			};
+			buildConfigurationList = 93C0F3BD1EA2B10B00A8D512 /* Build configuration list for PBXProject "TinoHacksSmiling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C0F3B91EA2B10B00A8D512;
+			productRefGroup = 93C0F3C31EA2B10B00A8D512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C0F3C11EA2B10B00A8D512 /* TinoHacksSmiling */,
+				93C0F3D51EA2B10B00A8D512 /* TinoHacksSmilingTests */,
+				93C0F3E01EA2B10B00A8D512 /* TinoHacksSmilingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C0F3C01EA2B10B00A8D512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C0F3D01EA2B10B00A8D512 /* LaunchScreen.storyboard in Resources */,
+				93C0F3CD1EA2B10B00A8D512 /* Assets.xcassets in Resources */,
+				93C0F3CB1EA2B10B00A8D512 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C0F3D41EA2B10B00A8D512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C0F3DF1EA2B10B00A8D512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C0F3BE1EA2B10B00A8D512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C0F3C81EA2B10B00A8D512 /* ViewController.swift in Sources */,
+				93C0F3C61EA2B10B00A8D512 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C0F3D21EA2B10B00A8D512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C0F3DB1EA2B10B00A8D512 /* TinoHacksSmilingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C0F3DD1EA2B10B00A8D512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C0F3E61EA2B10B00A8D512 /* TinoHacksSmilingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93C0F3D81EA2B10B00A8D512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C0F3C11EA2B10B00A8D512 /* TinoHacksSmiling */;
+			targetProxy = 93C0F3D71EA2B10B00A8D512 /* PBXContainerItemProxy */;
+		};
+		93C0F3E31EA2B10B00A8D512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C0F3C11EA2B10B00A8D512 /* TinoHacksSmiling */;
+			targetProxy = 93C0F3E21EA2B10B00A8D512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93C0F3C91EA2B10B00A8D512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C0F3CA1EA2B10B00A8D512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93C0F3CE1EA2B10B00A8D512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C0F3CF1EA2B10B00A8D512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93C0F3E81EA2B10B00A8D512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93C0F3E91EA2B10B00A8D512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C0F3EB1EA2B10B00A8D512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinoHacksSmiling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karsohn.TinoHacksSmiling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93C0F3EC1EA2B10B00A8D512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinoHacksSmiling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karsohn.TinoHacksSmiling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		93C0F3EE1EA2B10B00A8D512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinoHacksSmilingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karsohn.TinoHacksSmilingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinoHacksSmiling.app/TinoHacksSmiling";
+			};
+			name = Debug;
+		};
+		93C0F3EF1EA2B10B00A8D512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinoHacksSmilingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karsohn.TinoHacksSmilingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinoHacksSmiling.app/TinoHacksSmiling";
+			};
+			name = Release;
+		};
+		93C0F3F11EA2B10B00A8D512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TinoHacksSmilingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karsohn.TinoHacksSmilingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinoHacksSmiling;
+			};
+			name = Debug;
+		};
+		93C0F3F21EA2B10B00A8D512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TinoHacksSmilingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karsohn.TinoHacksSmilingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinoHacksSmiling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C0F3BD1EA2B10B00A8D512 /* Build configuration list for PBXProject "TinoHacksSmiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C0F3E81EA2B10B00A8D512 /* Debug */,
+				93C0F3E91EA2B10B00A8D512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C0F3EA1EA2B10B00A8D512 /* Build configuration list for PBXNativeTarget "TinoHacksSmiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C0F3EB1EA2B10B00A8D512 /* Debug */,
+				93C0F3EC1EA2B10B00A8D512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93C0F3ED1EA2B10B00A8D512 /* Build configuration list for PBXNativeTarget "TinoHacksSmilingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C0F3EE1EA2B10B00A8D512 /* Debug */,
+				93C0F3EF1EA2B10B00A8D512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93C0F3F01EA2B10B00A8D512 /* Build configuration list for PBXNativeTarget "TinoHacksSmilingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C0F3F11EA2B10B00A8D512 /* Debug */,
+				93C0F3F21EA2B10B00A8D512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93C0F3BA1EA2B10B00A8D512 /* Project object */;
+}
